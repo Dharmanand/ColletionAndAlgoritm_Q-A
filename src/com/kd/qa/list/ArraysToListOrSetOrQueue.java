@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Queue;
 import java.util.Set;
 
-public class ArraysToListOrSetOrCollection {
+public class ArraysToListOrSetOrQueue {
 
 	public static void main(String[] args) {
 		String[] str = new String[] { "one", "two", "three", "one" };
