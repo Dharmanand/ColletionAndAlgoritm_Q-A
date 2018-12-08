@@ -28,7 +28,7 @@ public class SortHashMapByKeyAndValue {
 		LinkedHashMap<Integer, Integer> temp = new LinkedHashMap<>();
 		
 		List<Integer> list = new ArrayList<>(map.keySet());
-		Collections.sort(new ArrayList<>(map.keySet()));
+		Collections.sort(list);
 
 		for (Integer i : list)
 			temp.put(i, map.get(i));
