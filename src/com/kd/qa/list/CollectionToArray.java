@@ -22,6 +22,11 @@ public class CollectionToArray {
 			System.out.println(str);
 		}
 		System.out.println("---------------");
+		
+		countries = (String[]) colle.toArray();
+		for(String str: countries) {
+			System.out.println(str);
+		}
 	}
 	
 }
